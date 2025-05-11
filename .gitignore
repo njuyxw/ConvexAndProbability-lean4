@@ -1,0 +1,26 @@
+# 忽略 Git 自己的元数据（虽然默认就不提交 .git）
+.git/
+
+# Lean 4 构建相关缓存
+lake-packages/
+lake-manifest.json
+build/
+lakefile.lean
+.lake/
+
+# VSCode 编辑器配置（如果用 VSCode）
+.vscode/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS 文件
+.DS_Store
+
+# 临时/中间文件
+*.log
+*.tmp
+*.swp
+
