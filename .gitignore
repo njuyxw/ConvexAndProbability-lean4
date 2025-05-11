@@ -3,9 +3,7 @@
 
 # Lean 4 构建相关缓存
 lake-packages/
-lake-manifest.json
 build/
-lakefile.lean
 .lake/
 
 # VSCode 编辑器配置（如果用 VSCode）
